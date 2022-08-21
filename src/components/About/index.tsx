@@ -21,7 +21,7 @@ import gamingGif from '../../images/gaming.gif';
 import footballGif from '../../images/football.gif';
 
 import Skill from './Skill';
-import { contentGrid } from '../..';
+import { contentGrid } from '../../contentgrid';
 import Board from './Board';
 import Link from '../Intro/Link';
 import { linkContainer } from '../Intro/style';
@@ -100,7 +100,7 @@ const About = () => (
             <div className={skillsWrapper}>
                 {
                     skills.map((item) => (
-                        <Skill logo={item.logo} header={item.header} />
+                        <Skill key={item.header} logo={item.logo} header={item.header} />
                     ))
                 }
             </div>
