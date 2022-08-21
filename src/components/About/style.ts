@@ -1,16 +1,4 @@
-import {css, keyframes} from "@emotion/css";
-
-export const swing = keyframes`
-    0%, 100% {
-        transform: rotate(10deg);
-    }
-    25%, 75% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(-10deg);
-    }
-`
+import {css} from "@emotion/css";
 
 export const content = css`
     display: flex;
@@ -26,16 +14,9 @@ export const about = css`
     align-items: center;
 `;
 
-export const headerBoard = css`
-    font-family: "Montserrat-black";
-    padding: 2rem;
-    border: 2px solid black;
-    transform-origin: top center;
-    animation: ${swing} 2s infinite;
-`;
-
 export const description = css`
     text-align: center;
+    margin-top: 2rem;
 `
 export const divider = css`
     margin: 2rem 0;
