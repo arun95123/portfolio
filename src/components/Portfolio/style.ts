@@ -19,6 +19,7 @@ export const pageTwo = css`
     display: flex;
     align-items: center;
     background-color: #FAFAFA;
+    width: 100%;
     height: 100vh;
     transition: transform 1s ease;
     flex-direction: column;

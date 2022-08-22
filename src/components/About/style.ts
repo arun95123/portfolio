@@ -43,6 +43,7 @@ export const contact = css`
 
 export const hobbiesWrapper = css`
     display: flex;
+    width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 2rem;
@@ -53,6 +54,7 @@ export const hobbiesWrapper = css`
 
 export const resumeLink = css`
     all: unset;
+    cursor: pointer;
     margin-top: 1rem;
     color: white;
     background-color: black;
